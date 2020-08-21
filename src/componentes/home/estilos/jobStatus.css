@@ -1,0 +1,85 @@
+.seccion-jobstatus{
+    background-color: #c0d0cd;
+}
+
+.h3-seccionjob{
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.numeros{
+    display: flex;
+    justify-content: center;
+}
+
+.numero{
+    margin: 30px 50px 10px 50px;
+    font-size: 30px;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.informacion-jobs{
+    display: flex;
+    justify-content: center;
+}
+
+.info-jobs{
+    margin: 0 25px;
+    font-size: 15px;
+    padding: 0 30px;
+}
+
+.informacion-easiest{
+    display: flex;
+    justify-content: center;
+}
+
+.lista-iconos{
+    padding: 10px 60px 15px 20px;
+    font-size: 100px;
+    color: #2bbc9c;
+    margin-top: 0;
+}
+
+.info-parrafo{
+    padding: 10px 60px 20px 0;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.info-parrafo2{
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.seccion_people{
+    background-color: #ecf0f1;
+    margin-bottom: 0;
+}
+
+.img-people{
+    width: 20%;
+    padding-top: 15px;
+    margin-bottom: 50px;
+}
+
+.seccion_companies{
+    background-color: #e4e1d5;
+    margin-top: 0;
+}
+
+.logos-compañias{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.logo-compañia{
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 50px;
+}
+
+

@@ -1,81 +1,81 @@
-.imagen{
+.imagen {
+  width: 100%;
+  height: 50rem;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.banner {
+  margin-top: 0;
+}
+
+.contenedor-banner {
+  background-color: #1f886f;
+  opacity: 0.8;
+}
+
+.boton-card {
+  font-size: 15px;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: darkgray;
+  background-color: #fffd2b;
+  margin-left: 40%;
+}
+
+.titulo-banner {
+  color: #fff;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 15%;
+  padding-bottom: 10px;
+}
+
+.parrafo-banner {
+  color: #fff;
+  padding: 0 0 20px 0;
+  margin: 10px;
+}
+
+.boton-card2 {
+  font-size: 15px;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: darkgray;
+  background-color: #fff;
+  margin-left: 40%;
+}
+
+@media only screen and (min-width: 768px) {
+  .flotar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(60%);
     width: 100%;
-    height: 50rem;
-	background-position: center center;
-	background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-}
+    color: #fff;
+    text-align: center;
+  }
 
-.banner{
-    margin-top: 0;
-}
+  .hr-banner {
+    display: none;
+  }
 
-.contenedor-banner{
-    background-color: #1f886f;
-    opacity: .8;
-}
-
-.boton-card{
+  .boton-card {
     font-size: 15px;
     padding: 10px;
     margin-bottom: 10px;
     color: darkgray;
     background-color: #fffd2b;
-    margin-left: 40%;
-}
+  }
 
-.titulo-banner {
-    color: #fff;
-    font-size: 20px;
-    padding-top: 20px;
-    padding-left: 15%;
-    padding-bottom: 10px;
-}
-
-.parrafo-banner {
-    color: #fff;
-    padding: 0 0 20px 0;
-    margin: 10px;
-}
-
-.boton-card2{
+  .boton-card2 {
     font-size: 15px;
     padding: 10px;
     margin-bottom: 10px;
     color: darkgray;
     background-color: #fff;
-    margin-left: 40%;
-}
-
-@media only screen and (min-width:768px){
-    .flotar{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translateX(-50%) translateY(60%);
-        width: 100%;
-        color: #fff;
-        text-align: center;
-    }
-
-    .hr-banner{
-        display: none;
-    }
-
-    .boton-card{
-        font-size: 15px;
-        padding: 10px;
-        margin-bottom: 10px;
-        color: darkgray;
-        background-color: #fffd2b;
-    }
-
-    .boton-card2{
-        font-size: 15px;
-        padding: 10px;
-        margin-bottom: 10px;
-        color: darkgray;
-        background-color: #fff;
-    }
+  }
 }

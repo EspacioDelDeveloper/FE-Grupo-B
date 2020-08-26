@@ -32,7 +32,8 @@ const Trabajos= () => {
             <div className="container seccion-trabajos">
                 <div className="row">
                     <div className="col-md-9 col-sm-12">
-                        <table>
+                        <div className="table-responsive">
+                        <table className="tabla"> 
                             <thead>
                                 <tr>
                                 <th>Empleo</th>
@@ -84,6 +85,7 @@ const Trabajos= () => {
                                 }
                             </tbody>
                         </table>
+                        </div>
                         <div className="pagination">
                             <a href="#">&laquo;</a>
                             <a href="#">1</a>
@@ -92,24 +94,26 @@ const Trabajos= () => {
                             <a href="#">&raquo;</a>
                         </div>
                     </div>
-                    <div className="col-md-3 col-sm-12">
-                        <h4 className="h4-lista">Archives</h4>
-                        <ul className="lista-trabajos">
-                            <li><i className="fas fa-angle-right"></i>July 2020</li>
-                            <li><i className="fas fa-angle-right"></i>August 2019</li>
-                            <li><i className="fas fa-angle-right"></i>July 2018</li>
-                        </ul>
-                        <h4 className="h4-lista">Categories</h4>
-                        <ul>
-                            <li><i className="fas fa-angle-right"></i>Uncategorized</li>
-                        </ul>
-                        <h4 className="h4-lista">Meta</h4>
-                        <ul>
-                            <li><i className="fas fa-angle-right"></i>Login</li>
-                            <li><i className="fas fa-angle-right"></i>Entries feed</li>
-                            <li><i className="fas fa-angle-right"></i>Comments feed</li>
-                            <li><i className="fas fa-angle-right"></i>Wordpress.org</li>
-                        </ul>
+                    <div className="trabajos__info">
+                        <div className="col-md-3 col-sm-12">
+                            <h4 className="h4-lista">Archives</h4>
+                            <ul className="lista-trabajos">
+                                <li><i className="fas fa-angle-right"></i>July 2020</li>
+                                <li><i className="fas fa-angle-right"></i>August 2019</li>
+                                <li><i className="fas fa-angle-right"></i>July 2018</li>
+                            </ul>
+                            <h4 className="h4-lista">Categories</h4>
+                            <ul>
+                                <li><i className="fas fa-angle-right"></i>Uncategorized</li>
+                            </ul>
+                            <h4 className="h4-lista">Meta</h4>
+                            <ul>
+                                <li><i className="fas fa-angle-right"></i>Login</li>
+                                <li><i className="fas fa-angle-right"></i>Entries feed</li>
+                                <li><i className="fas fa-angle-right"></i>Comments feed</li>
+                                <li><i className="fas fa-angle-right"></i>Wordpress.org</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

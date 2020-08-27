@@ -11,6 +11,7 @@ export const People = () => {
     nombre: "",
     datos: "",
   });
+
   return (
     <>
       <div className="seccion_people">

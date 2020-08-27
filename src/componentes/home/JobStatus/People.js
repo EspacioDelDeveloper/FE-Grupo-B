@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import { Testimonial } from "./Testimonial";
 import { data } from "./data";
 
@@ -20,7 +19,7 @@ export const People = () => {
             What People Say About Us
           </h3>
           <div className="seccion__imagenes">
-            {info.map((inf, idx) => (
+            {info.map((inf) => (
               <div>
                 <img
                   key={inf.id}
@@ -28,9 +27,9 @@ export const People = () => {
                   className="img-people"
                   alt="logo"
                   onClick={() => {
-                    setShow(!show);
+                    setShow(true);
                     setUserSelected({
-                      nombre: inf.datos,
+                      nombre: inf.nombre,
                       datos: inf.datos,
                     });
                   }}
@@ -38,6 +37,7 @@ export const People = () => {
               </div>
             ))}
           </div>
+
           {show && <Testimonial userSelected={userSelected} />}
         </div>
       </div>

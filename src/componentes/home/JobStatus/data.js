@@ -1,53 +1,38 @@
+import IMAG1 from "../img/invitado1.jpg";
+import IMAG2 from "../img/invitado2.jpg";
+import IMAG3 from "../img/invitado3.jpg";
+import IMAG4 from "../img/invitado4.jpg";
+import IMAG5 from "../img/invitado5.jpg";
+
 export const data = [
-  ({
+  {
     id: 1,
     nombre: "Leonanie Million",
-    data: "Paralelismo regional virtual",
-    imagen:
-      "https://robohash.org/voluptatumestvoluptatem.bmp?size=50x50&set=set1",
+    datos: "Paralelismo regional virtual",
+    imagen: IMAG1,
   },
   {
     id: 2,
     nombre: "Cthrine Bolzen",
-    data: "Hub global asimilado",
-    imagen:
-      "https://robohash.org/numquamametreprehenderit.bmp?size=50x50&set=set1",
+    datos: "Hub global asimilado",
+    imagen: IMAG2,
   },
   {
     id: 3,
     nombre: "Janeta Curwood",
-    data: "Interfaz gráfica holística de ingeniería inversa",
-    imagen: "https://robohash.org/autexnostrum.bmp?size=50x50&set=set1",
+    datos: "Interfaz gráfica holística de ingeniería inversa",
+    imagen: IMAG3,
   },
   {
     id: 4,
     nombre: "Aleece Odams",
-    data: "Adaptador uniforme innovador",
-    imagen: "https://robohash.org/asperioresetenim.png?size=50x50&set=set1",
+    datos: "Adaptador uniforme innovador",
+    imagen: IMAG4,
   },
   {
     id: 5,
     nombre: "Clayton Bresner",
-    data: "Interfaz dinámica optimizada",
-    imagen: "https://robohash.org/occaecatilaboresed.png?size=50x50&set=set1",
+    datos: "Interfaz dinámica optimizada",
+    imagen: IMAG5,
   },
-  {
-    id: 6,
-    nombre: "Salome Poley",
-    data: "Emulación de respuesta por fases",
-    imagen: "https://robohash.org/nonvitaecumque.jpg?size=50x50&set=set1",
-  },
-  {
-    id: 7,
-    nombre: "Thor Kivell",
-    datos: "Firmware no intermedio multiplataforma",
-    imagen:
-      "https://robohash.org/similiqueabperspiciatis.bmp?size=50x50&set=set1",
-  },
-  {
-    id: 8,
-    nombre: "Irv Pensom",
-    datos: "Mano de obra operativa asincrónica",
-    imagen: "https://robohash.org/teneturdolorumest.jpg?size=50x50&set=set1",
-  }),
 ];

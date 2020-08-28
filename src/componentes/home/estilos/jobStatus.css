@@ -1,85 +1,181 @@
-.seccion-jobstatus{
-    background-color: #c0d0cd;
+.seccion-jobstatus {
+  background-color: #c0d0cd;
 }
 
-.h3-seccionjob{
-    padding-top: 30px;
-    margin-bottom: 30px;
+.status__title {
+  padding: 3rem 0;
+  text-align: center;
 }
 
-.numeros{
-    display: flex;
-    justify-content: center;
+.numeros {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.caja__numero {
+  height: 10rem;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.lista__numeros {
+  flex-direction: column;
 }
 
-.numero{
-    margin: 30px 50px 10px 50px;
-    font-size: 30px;
-    background-color: #fff;
-    padding: 30px;
+.numero {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.info-jobs {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+}
+@media (min-width: 768px) {
+  .numeros {
+    flex-direction: row;
+    align-items: center;
+  }
+  .caja__numero {
+    height: 15rem;
+    width: 15rem;
+  }
+  .lista__numeros {
+    margin-right: 5rem;
+  }
+  .lista__numeros:last-child {
+    margin-right: none;
+  }
+}
+/* People */
+
+.seccion_people {
+  background-color: #ecf0f1;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
 }
 
-.informacion-jobs{
-    display: flex;
-    justify-content: center;
+.seccion__imagenes {
+  display: flex;
+  padding-top: 2rem;
+  justify-content: center;
+  align-items: center;
+  overflow-x: scroll;
 }
 
-.info-jobs{
-    margin: 0 25px;
-    font-size: 15px;
-    padding: 0 30px;
+.img-people {
+  width: 12rem;
+  margin-bottom: 50px;
+  cursor: pointer;
 }
 
-.informacion-easiest{
-    display: flex;
-    justify-content: center;
+@media (min-width: 768px) {
+  .seccion__imagenes {
+    overflow-x: hidden;
+  }
+  .img-people {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+/*Testimonial */
+.caja__testimonial {
+  width: 100%;
+  height: 20rem;
+  background-color: white;
+  margin-bottom: 3rem;
+}
+.seccion__testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial {
+  margin-top: 8rem;
+  font-size: 2.5rem;
 }
 
-.lista-iconos{
-    padding: 10px 60px 15px 20px;
-    font-size: 100px;
-    color: #2bbc9c;
-    margin-top: 0;
+/*Easist */
+.informacion-easiest {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
 }
 
-.info-parrafo{
-    padding: 10px 60px 20px 0;
-    margin-bottom: 0;
-    font-size: 12px;
+.lista-iconos {
+  font-size: 5rem;
+  color: #31bc9c;
+  padding: 1rem 2rem;
 }
 
-.info-parrafo2{
-    margin-top: 15px;
-    margin-right: 10px;
-    margin-bottom: 30px;
-    font-size: 15px;
+.info-parrafo {
+  font-size: 0.8rem;
+}
+.info-parrafo2 {
+  font-size: 1rem;
+}
+.linea {
+  width: 2px;
+  height: 6rem;
+  border-right: 1px solid #b1b4b5;
+  margin-bottom: 1rem;
 }
 
-.seccion_people{
-    background-color: #ecf0f1;
-    margin-bottom: 0;
+.caja__iconos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.img-people{
-    width: 20%;
-    padding-top: 15px;
-    margin-bottom: 50px;
+@media (min-width: 768px) {
+  .info-parrafo2 {
+    font-size: 1.8rem;
+  }
+  .lista-iconos {
+    font-size: 10rem;
+  }
+  .info-parrafo {
+    font-size: 1.4rem;
+  }
+  .informacion-easiest {
+    flex-direction: row;
+  }
+  .linea {
+    display: none;
+  }
+
+  .lista-iconos {
+    border-right: 1px solid #b1b4b5;
+    border-left: 1px solid #b1b4b5;
+  }
+  .linea-horizontal {
+    border-top: 1px solid #b1b4b5;
+    height: 1rem;
+    width: 15rem;
+  }
+}
+/* companies */
+
+.seccion_companies {
+  background-color: #e4e1d5;
+  margin-top: 0;
 }
 
-.seccion_companies{
-    background-color: #e4e1d5;
-    margin-top: 0;
+.logos-compañias {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+  padding-top: 4rem;
 }
 
-.logos-compañias{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0;
+.logo-compañia {
+  font-size: 1.2rem;
+  padding-bottom: 4rem;
 }
-
-.logo-compañia{
-    padding: 10px 15px 10px 15px;
-    margin-bottom: 50px;
-}
-
-
